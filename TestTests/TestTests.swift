@@ -35,7 +35,7 @@ class TestTests: XCTestCase {
     }
     
     func testHello() {
-        let name =  "Evan"
+        let name = "Evan"
         let vc = ViewController()
         let hellos = vc.helloWorld(name)
         XCTAssert(hellos.contains(name), "not display name")
